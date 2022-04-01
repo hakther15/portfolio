@@ -1,0 +1,26 @@
+.hero{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 30px;
+}
+
+h1.name {
+    font-size: 90px;
+    font-family: 'WindSong', cursive;
+    color: #0dcaf0;
+
+}
+
+h4.description {
+    font-size: 15px;
+    font-family: 'Anybody', cursive;
+}
+
+div.greeting {
+    font-size: 35px;
+    font-family: 'Shadows Into Light', cursive;
+}
