@@ -6,7 +6,7 @@
 
 div.hero {
   text-align: center;
-  margin: 150px 75px 350px 75px;
+  margin: 100px 75px 350px 75px;
   border: var(--secondary-color) solid 5px;
 }
 
@@ -72,6 +72,7 @@ div.paragraph {
 a.btn {
   font-family: var(--primary-font);
   font-size: 15px;
+  margin: 0px 15px;
 }
 a.btn:hover {
   color: white;
@@ -88,11 +89,19 @@ a.btn:hover {
   border: var(--secondary-color) solid 1px;
 }
 
+img.navbar-img {
+    width: 40px;
+    border: none;
+    display: inline;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
 img {
   border: var(--secondary-color) solid 2px;
   border-radius: 10px;
-  margin-bottom: 20px;
-  width: 450px;
+  margin: 10px 0px 20px 0px;
+  width: 443px;
   padding: -20px;
 }
 
