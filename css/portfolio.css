@@ -1,13 +1,24 @@
 :root {
   --primary-font: "Anybody", cursive;
+  --secondary-font: "Shadows Into Light", cursive;
   --primary-color: #0dcaf0;
   --secondary-color: rgb(248, 178, 227);
 }
 
 div.hero {
   text-align: center;
-  margin: 100px 75px 350px 75px;
+  margin: 95px 75px 350px 75px;
   border: var(--secondary-color) solid 5px;
+}
+
+ul.navbar-nav {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.navbar-nav:hover {
+  color: var(--secondary-color);
 }
 
 .buttons {
@@ -17,14 +28,10 @@ div.hero {
 
 h1.name.typed-out {
   display: inline-block;
-  line-height: 1.4;
   font-size: 90px;
+  line-height: 1.4;
   font-family: "WindSong", cursive;
   color: var(--primary-color);
-}
-
-h1.name:after {
-  content: " ";
 }
 
 .typed-out {
@@ -38,6 +45,14 @@ h1.name:after {
   width: 0;
 }
 
+.project-title {
+    text-align: center;
+    font-size: 60px;
+    font-family: var(--secondary-font);
+    margin-top: 30px;
+    color: var(--primary-color);
+}
+
 @keyframes typing {
   from {
     width: 0;
@@ -46,7 +61,6 @@ h1.name:after {
     width: 100%;
   }
 }
-
 
 @keyframes blinking {
   from {
@@ -60,13 +74,19 @@ h1.name:after {
 div.greeting,
 h2.title {
   font-size: 35px;
-  font-family: "Shadows Into Light", cursive;
+  font-family: var(--secondary-font);
 }
 
 h4.description,
-div.paragraph {
+div.paragraph,
+div.paragraph-two {
   font-size: 15px;
   font-family: var(--primary-font);
+}
+
+div.paragraph-two {
+    text-align: center;
+    margin: 50px;
 }
 
 a.btn {
@@ -90,11 +110,11 @@ a.btn:hover {
 }
 
 img.navbar-img {
-    width: 40px;
-    border: none;
-    display: inline;
-    margin: 0 auto;
-    border-radius: 10px;
+  width: 50px;
+  border: none;
+  display: inline;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 img {
