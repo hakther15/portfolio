@@ -11,6 +11,10 @@ div.hero {
   border: var(--secondary-color) solid 5px;
 }
 
+div.project-section {
+  margin: 100px 0px;
+}
+
 ul.navbar-nav {
   font-family: var(--secondary-font);
   font-size: 24px;
@@ -79,7 +83,8 @@ h2.title {
 
 h4.description,
 div.paragraph,
-div.paragraph-two {
+div.paragraph-two,
+div.weather-js {
   font-size: 15px;
   font-family: var(--primary-font);
 }
@@ -130,8 +135,16 @@ img {
 }
 
 h2.title.project {
-  color: purple;
+  color: rgb(51, 0, 99);
   font-weight: bolder;
+}
+
+h2.title.project.two {
+  color: #a136ff;
+}
+
+h2.title.project.three {
+  color: #ff69b4;
 }
 
 a.project-link {
@@ -154,8 +167,14 @@ h2.title.project {
   margin-left: -75px;
 }
 
+h2.title.project.two,
+div.paragraph.project.two,
+div.weather-js {
+  margin: 10px;
+}
+
 div.paragraph {
-  padding: 50px 0px 50px 0px;
+  padding: 20px 0px 0px 0px;
   display: flex;
   font-size: 15px;
   margin-left: -75px;
@@ -185,26 +204,22 @@ div.paragraph {
     display: inline;
   }
 
-  a.project-link,
-  h2.project {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-  }
-
   h2.title,
   h2.title.project,
-  div.paragraph {
+  div.paragraph,
+  div.weather-js {
     text-align: center;
     margin: 0 auto;
     display: block;
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px 20px 0px;
   }
 
-  div.paragraph {
+  div.paragraph,
+  div.weather-js {
     font-size: 20px;
     text-align: center;
     display: inline-block;
+    color: rgb(99, 99, 216);
   }
 
   div.project-header {
@@ -215,16 +230,8 @@ div.paragraph {
     font-size: 20px;
   }
 
-  div.row {
+  div.row,
+  div.row.project-section {
     border: 3px solid var(--primary-color);
-  }
-
-  a.project-link-img {
-    display: none;
-  }
-
-  a.mobile-size {
-    display: contents;
-    color: black;
   }
 }
