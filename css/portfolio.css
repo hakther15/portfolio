@@ -84,9 +84,13 @@ div.paragraph-two {
   font-family: var(--primary-font);
 }
 
-div.paragraph-two {
+div.project-header {
     text-align: center;
-    margin: 50px;
+    margin: 50px 0px 300px 0px;
+}
+
+h1.project-title {
+  margin-bottom: 25px;
 }
 
 a.btn {
@@ -125,11 +129,30 @@ img {
   padding: -20px;
 }
 
-h2.title {
+h2.title.project {
+  color: purple;
+  font-weight: bolder;
+}
+
+a.project-link {
+  text-decoration: none;
+}
+
+a.project-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+h2.title.project:hover {
+  color: var(--secondary-color);
+}
+
+h2.title, h2.title.project {
   margin-top: 20px;
   display: flex;
   margin-left: -75px;
 }
+
 
 div.paragraph {
   padding: 50px 0px 50px 0px;
@@ -138,7 +161,8 @@ div.paragraph {
   margin-left: -75px;
 }
 
-@media (max-width: 1025px) {
+
+@media (max-width: 1025px), (max-height: 200px) {
   div.hero {
     text-align: center;
     margin: 20px 50px 100px 50px;
@@ -159,14 +183,22 @@ div.paragraph {
     font-size: 60px;
     white-space: normal;
     text-align: center;
+    display: inline;
   }
 
-  h2.title,
+  a.project-link, h2.project {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+  h2.title, h2.title.project,
   div.paragraph {
     text-align: center;
     margin: 0 auto;
     display: block;
-    padding: 0px 0px 25px 0px;
+    padding: 20px 0px 40px 0px;
   }
 
   div.paragraph {
@@ -175,8 +207,25 @@ div.paragraph {
     display: inline-block;
   }
 
-  h2.title {
-    font-size: 40px;
-    text-align: center;
+  div.project-header {
+    margin-bottom: 80px;
   }
+
+  div.paragraph-two {
+    font-size: 20px;
+  }
+
+  div.row {
+    border: 3px solid var(--primary-color);
+  }
+
+  a.project-link-img {
+    display: none;
+  }
+
+  a.mobile-size {
+    display:contents;
+    color: black;
+  }
+
 }
