@@ -89,6 +89,10 @@ div.weather-js {
   font-family: var(--primary-font);
 }
 
+a.weather-js {
+  color: var(--secondary-color);
+}
+
 div.project-header {
   text-align: center;
   margin: 50px 0px 300px 0px;
