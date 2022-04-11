@@ -116,6 +116,10 @@ a.btn:hover {
   color: white;
 }
 
+.btn.about {
+  margin-top: 20px;
+}
+
 .btn.btn-info:hover {
   color: var(--primary-color);
   background: white;
