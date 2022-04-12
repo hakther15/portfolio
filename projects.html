@@ -39,9 +39,12 @@
       href="https://fonts.googleapis.com/css2?family=Anybody&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/d18ccbae64.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d18ccbae64.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body style="background-color: #f9f7fe">
+  <body style="background-color: #f9f7fe" id="top">
     <nav
       class="navbar navbar-expand-lg navbar-light"
       style="background-color: #ffdaf4"
@@ -69,7 +72,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html" title="Contact Sina">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact Sina"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -118,30 +123,34 @@
           /></a>
         </div>
         <div class="col">
-          <a
-            href="https://coralinepage.netlify.app/"
-            target="blank"
-            class="project-link"
-            title="Click to view"
-            ><h2 class="title project">Coraline Project</h2></a
-          >
+          <h2 class="title project">Coraline Project</h2>
           <div class="paragraph">
             My first project toward front-end development! I learned basic HTML,
             CSS, and an introduction to JavaScript coding. I was able to style
             with gradients, used various in-line and block elements, and created
             a pop-up window function to obtain information.
           </div>
+          <div class="about-buttons">
+            <a
+              href="https://coralinepage.netlify.app/"
+              class="btn btn-outline-info about"
+              title="Click to view"
+              target="blank"
+              >View Page</a
+            >
+            <a
+              href="https://github.com/hakther15/first-project"
+              class="btn btn-info about"
+              title="Click to view"
+              target="blank"
+              >View Code</a
+            >
+          </div>
         </div>
       </div>
       <div class="row project-section">
         <div class="col">
-          <a
-            href="https://weather-react-search.netlify.app/"
-            target="blank"
-            class="project-link"
-            title="Click to view"
-            ><h2 class="title project two">Weather Search using React.js</h2></a
-          >
+          <h2 class="title project two">Weather Search using React.js</h2>
           <div class="paragraph project two">
             This more advanced project is where I learned how to utilize
             JavaScript/React.js into a functioning weather application. Some
@@ -150,9 +159,25 @@
             temperature from farenheit to celsius, and enabling location to view
             local weather.
           </div>
+          <div class="about-buttons">
+            <a
+              href="https://weather-react-search.netlify.app/"
+              class="btn btn-outline-info about"
+              title="Click to view"
+              target="blank"
+              >View Page</a
+            >
+            <a
+              href="https://github.com/hakther15/weather-app-react"
+              class="btn btn-info about"
+              title="Click to view"
+              target="blank"
+              >View Code</a
+            >
+          </div>
           <div class="weather-js">
-            This project was initially written using only JavaScript; you can
-            view this version
+            <br />This project was initially written using only JavaScript; you
+            can view this version
             <a
               href="https://weatherapp-search.netlify.app/"
               target="blank"
@@ -191,21 +216,34 @@
           /></a>
         </div>
         <div class="col">
-          <a
-            href="https://dictionary-search-app.netlify.app/"
-            target="blank"
-            class="project-link"
-            title="Click to view"
-            ><h2 class="title project three">Dictionary Search</h2></a
-          >
+          <h2 class="title project three">Dictionary Search</h2>
           <div class="paragraph">
             Continued to practice my skills and knowledge of React.js and the
             use of APIs in this project. Like the weather application, this
             dictionary application changes based on what you enter - including
             the images!
           </div>
+          <div class="about-buttons">
+            <a
+              href="https://dictionary-search-app.netlify.app/"
+              class="btn btn-outline-info about"
+              title="Click to view"
+              target="blank"
+              >View Page</a
+            >
+            <a
+              href="https://github.com/hakther15/dictionary-react-app"
+              class="btn btn-info about"
+              title="Click to view"
+              target="blank"
+              >View Code</a
+            >
+          </div>
         </div>
       </div>
     </div>
+    <footer>
+      <a href="#top">Back to the top</a>
+    </footer>
   </body>
 </html>

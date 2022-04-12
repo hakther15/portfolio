@@ -93,7 +93,8 @@ a.weather-js {
   color: var(--secondary-color);
 }
 
-div.project-header, div.contact-info {
+div.project-header,
+div.contact-info {
   text-align: center;
   margin: 50px 0px 300px 0px;
   font-family: var(--primary-font);
@@ -160,15 +161,6 @@ a.project-link {
   text-decoration: none;
 }
 
-a.project-link:hover {
-  text-decoration: underline;
-  color: var(--secondary-color);
-}
-
-h2.title.project:hover {
-  color: var(--secondary-color);
-}
-
 h2.title,
 h2.title.project {
   margin-top: 20px;
@@ -189,6 +181,16 @@ div.paragraph {
   margin-left: -75px;
 }
 
+footer {
+  margin: 50px 0px 0px 0px;
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+
+i {
+  padding: 0px 20px 0px 10px;
+}
+
 @media (max-width: 1025px), (max-height: 200px) {
   div.hero {
     text-align: center;
@@ -196,7 +198,9 @@ div.paragraph {
   }
 
   a.btn {
-    display: none;
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 60px;
   }
 
   div.greeting {
@@ -241,6 +245,6 @@ div.paragraph {
 
   div.row,
   div.row.project-section {
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--secondary-color);
   }
 }
