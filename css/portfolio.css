@@ -93,9 +93,10 @@ a.weather-js {
   color: var(--secondary-color);
 }
 
-div.project-header {
+div.project-header, div.contact-info {
   text-align: center;
   margin: 50px 0px 300px 0px;
+  font-family: var(--primary-font);
 }
 
 h1.project-title {
