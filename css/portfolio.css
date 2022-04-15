@@ -201,7 +201,7 @@ footer {
   font-family: var(--secondary-font);
 }
 
-footer.top-button{
+footer.top-button {
   font-weight: bold;
 }
 
@@ -209,11 +209,13 @@ i {
   padding: 0px 20px 0px 10px;
 }
 
-a.email-link, a.open-source-code {
+a.email-link,
+a.open-source-code {
   color: rgb(212, 0, 255);
 }
 
-a.email-link, a.open-source-code:hover {
+a.email-link,
+a.open-source-code:hover {
   transition: all 100ms ease-in-out;
   color: var(--secondary-color);
 }
