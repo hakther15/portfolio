@@ -25,6 +25,18 @@ ul.navbar-nav {
   color: var(--secondary-color);
 }
 
+li.nav-social-links.home {
+  margin: 0px 0px 0px 930px;
+}
+
+li.nav-social-links.proj {
+  margin: 0px 0px 0px 955px;
+}
+
+a.nav-social-links.one {
+  margin-right: -30px;
+}
+
 .buttons {
   text-align: center;
   margin: 30px;
@@ -112,6 +124,7 @@ a.btn {
 a.btn:hover {
   color: white;
   background: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .btn.btn-info {
@@ -126,6 +139,7 @@ a.btn:hover {
   color: var(--primary-color);
   background: white;
   border: var(--secondary-color) solid 1px;
+  transition: all 100ms ease-in-out;
 }
 
 img.navbar-img {
@@ -187,8 +201,28 @@ footer {
   font-family: var(--secondary-font);
 }
 
+footer.top-button{
+  font-weight: bold;
+}
+
 i {
   padding: 0px 20px 0px 10px;
+}
+
+a.email-link, a.open-source-code {
+  color: rgb(212, 0, 255);
+}
+
+a.email-link, a.open-source-code:hover {
+  transition: all 100ms ease-in-out;
+  color: var(--secondary-color);
+}
+
+div.open-source {
+  font-family: var(--secondary-font);
+  margin: 30px 0px 10px 0px;
+  text-align: center;
+  font-weight: bolder;
 }
 
 @media (max-width: 1025px), (max-height: 200px) {
