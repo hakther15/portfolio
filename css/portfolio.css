@@ -171,20 +171,31 @@ h2.title.project.three {
   color: #ff69b4;
 }
 
+h2.title.project.travel {
+  color:rgb(212, 0, 255)
+}
+
 a.project-link {
   text-decoration: none;
 }
 
 h2.title,
-h2.title.project {
+h2.title.project,
+h2.title.project.travel {
   margin-top: 20px;
   display: flex;
   margin-left: -75px;
 }
 
+a#travel-btn {
+  display: block;
+  justify-items: center;
+}
+
 h2.title.project.two,
 div.paragraph.project.two,
-div.weather-js {
+div.weather-js,
+h2.title.project.travel {
   margin: 10px;
 }
 
@@ -282,5 +293,10 @@ div.open-source {
   div.row,
   div.row.project-section {
     border: 3px solid var(--secondary-color);
+  }
+
+  img.stack,
+  h3 {
+    display: none;
   }
 }
