@@ -238,6 +238,10 @@ div.open-source {
   font-weight: bolder;
 }
 
+.mobile-view {
+          display: none;
+        }
+
 @media (max-width: 1025px), (max-height: 200px) {
   div.hero {
     text-align: center;
@@ -296,7 +300,35 @@ div.open-source {
   }
 
   img.stack,
-  h3 {
+  h3,
+  div.stack-images {
     display: none;
   }
+
+  .mobile-view {
+        display: block; /* Show mobile view */
+        text-align: center;
+        list-style: none;
+    }
+
+    #stack {
+      display: none;
+    }
+
+    ul {
+      border: 2px solid pink;
+      padding: 3px;
+      font-family: "Anybody", cursive;;
+    }
+
+    li {
+      margin: 5px;
+    }
+
+    .row {
+      margin-bottom: -250px;
+    }
+
+
+
 }
