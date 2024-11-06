@@ -188,8 +188,7 @@ h2.title.project.travel {
 }
 
 a#travel-btn {
-  display: block;
-  justify-items: center;
+  margin: 0px 60px;
 }
 
 h2.title.project.two,
@@ -204,6 +203,10 @@ div.paragraph {
   display: flex;
   font-size: 15px;
   margin-left: -75px;
+}
+
+video {
+  margin: 0 0 0 20px;
 }
 
 footer {
@@ -246,6 +249,10 @@ div.open-source {
   div.hero {
     text-align: center;
     margin: 20px 50px 100px 50px;
+  }
+
+  li.nav-social-links {
+    display: none;
   }
 
   a.btn {
@@ -327,6 +334,10 @@ div.open-source {
 
     .row {
       margin-bottom: -250px;
+    }
+
+    video {
+      display: none;
     }
 
 
