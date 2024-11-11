@@ -121,6 +121,25 @@ a.btn {
   font-size: 15px;
   margin: 0px 15px;
 }
+
+.about-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line */
+  justify-content: center; /* Centers the buttons horizontally */
+}
+
+.about-buttons a.btn {
+  font-family: var(--primary-font);
+  font-size: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 10px 15px; /* Adjusts spacing around each button */
+  min-width: 150px; /* Ensures enough width for single-line text */
+  flex: 1 1 45%; /* Adjusts width to 45% for two buttons per line */
+  max-width: 200px; /* Optional: Limits the maximum width of buttons */
+}
+
 a.btn:hover {
   color: white;
   background: var(--secondary-color);
@@ -141,6 +160,7 @@ a.btn:hover {
   border: var(--secondary-color) solid 1px;
   transition: all 100ms ease-in-out;
 }
+
 
 img.navbar-img {
   width: 50px;
