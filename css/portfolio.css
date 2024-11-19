@@ -229,14 +229,20 @@ video {
   margin: 0 0 0 20px;
 }
 
-footer {
-  margin: 50px 0px 0px 0px;
+div.top-button {
+  margin: 150px 0px 0px 0px;
   text-align: center;
   font-family: var(--secondary-font);
 }
 
-footer.top-button {
+div.top-button {
   font-weight: bold;
+}
+
+footer {
+  margin: 50px 0px 0px 0px;
+  text-align: center;
+  font-family: var(--secondary-font);
 }
 
 i {
@@ -326,6 +332,10 @@ div.open-source {
     border: 3px solid var(--secondary-color);
   }
 
+  footer {
+    display: none;
+  }
+
   img.stack,
   h3,
   div.stack-images {
@@ -343,7 +353,7 @@ div.open-source {
     }
 
     ul {
-      border: 2px solid pink;
+      /* border: 2px solid pink; */
       padding: 3px;
       font-family: "Anybody", cursive;;
     }
