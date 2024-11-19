@@ -332,7 +332,7 @@ div.open-source {
     border: 3px solid var(--secondary-color);
   }
 
-  footer {
+  .contact-links {
     display: none;
   }
 
