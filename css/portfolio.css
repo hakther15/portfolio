@@ -125,7 +125,7 @@ a.btn {
 .about-buttons {
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap onto the next line */
-  justify-content: center; /* Centers the buttons horizontally */
+  justify-content: flex-start; /* Centers the buttons horizontally */
 }
 
 .about-buttons a.btn {
@@ -173,9 +173,9 @@ img.navbar-img {
 img {
   border: var(--secondary-color) solid 2px;
   border-radius: 10px;
-  margin: 10px 0px 20px 0px;
-  width: 443px;
-  padding: -20px;
+  margin: 0px 0px 20px 0px;
+  width: 450px;
+  padding: 0px;
 }
 
 h2.title.project {
