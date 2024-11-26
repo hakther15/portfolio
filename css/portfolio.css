@@ -285,7 +285,14 @@ div.open-source {
     display: block;
     margin-bottom: 20px;
     padding: 5px 60px;
+    
   }
+
+  .about-buttons {
+    justify-content: center;
+    margin-bottom: 7px;
+  }
+
 
   div.greeting {
     font-size: 35px;
